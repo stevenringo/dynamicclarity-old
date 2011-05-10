@@ -1,0 +1,246 @@
+#framework_wrap {
+	margin:25px;
+}
+#framework_wrap #header {
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background: #6d6d6d url(../images/header.png) repeat-x left top;
+	border: 1px solid #555;
+	height: 71px;
+	width: 785px;
+	position: relative;
+}
+
+#framework_wrap #header span.icon {
+    background: url("../images/icon_option.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 32px;
+    position: absolute;
+    right: 20px;
+    text-indent: -9999px;
+    top: 18px;
+    width: 32px;
+}
+
+#framework_wrap #header span.logo {
+    background: url("../images/themelogo.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    text-indent: -9999px;
+    top: 18px;
+    width: 105px;
+}
+
+#framework_wrap #content_wrap {
+	border: 1px solid #aaa;
+	width: 785px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;	
+}
+
+#framework_wrap #content_wrap .top-info {
+	background: none repeat scroll 0 0 #F9F9F9;
+	border-bottom: 1px solid #E3E3E3;
+	border-top: 1px solid #FFFFFF;
+	height: 35px;
+}
+
+#framework_wrap #content_wrap .bottom-info {
+	background: none repeat scroll 0 0 #f1f1f1;
+	border-top: 1px solid #E3E3E3;
+	border-bottom: 1px solid #FFFFFF;
+	height: 35px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#content_wrap #options_tabs {
+    background: url("../images/tabs_bg.png") repeat-y scroll 0 0 #fff;
+}
+
+#content_wrap #options_tabs .options_tabs {
+    float: left;
+    list-style: none outside none;
+    position: relative;
+    width: 148px;
+    word-wrap: break-word;
+}
+
+#content_wrap #options_tabs .options_tabs li {
+    display: block;
+    float: left;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+	position:relative;
+}
+
+#content_wrap #options_tabs .options_tabs li.selected a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #D54E45;
+    width: 128px;
+	background-image: url("../images/white_px.png");
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #E3E3E3;
+	color: #21759B;
+	display: block;
+	float: left;
+	font-size: 11px;
+	padding: 8px 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#content_wrap #options_tabs .options_tabs li a {
+    width: 128px;
+	background-image: url("../images/white_px.png");
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #E3E3E3;
+	color: #21759B;
+	display: block;
+	float: left;
+	font-size: 11px;
+	padding: 8px 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFFFFF;	
+}
+
+#content_wrap #options_tabs .options_tabs li:not(.selected) a:hover {
+	background:#EAF2FA;
+}
+
+
+#content_wrap #options_tabs .options_tabs li.selected span {
+    background: url("../images/icon_arrow.png") no-repeat scroll 0 0 transparent;
+    height: 9px;
+    left: -1px;
+    position: absolute;
+    top: 12px;
+    width: 8px;
+}
+
+.option_general_default {
+    display: block;
+    float: right;
+    min-height: 400px;
+    width: 595px;
+	margin:20px 20px 20px 0;
+}
+
+#framework_wrap #content_wrap input.button-framework {
+    float: right;
+    font-size: 11px;
+    height: 24px;
+    margin: 5px 20px 0 0;
+    background: url("../images/btn.png") repeat-x scroll 0 0 #F3F3F3;
+    border: 1px solid #BBBBBB;
+    color: #444444;
+    cursor: pointer;
+    padding: 4px 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#framework_wrap #content_wrap h3 {
+    border-bottom: 1px solid #EEEEEE;
+    clear: both;
+    font-size: 14px;
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+}
+
+#framework_wrap #content_wrap p {
+    color: #555555;
+    font-size: 11px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#framework_wrap #content_wrap .option .section .element {
+    float: left;
+    margin: 0 15px 20px 0;
+    width: 345px;
+}
+
+#framework_wrap #content_wrap .option .section .description {
+    color: #555555;
+    float: left;
+    font-size: 11px;
+    padding: 2px 10px 0 0;
+    width: 225px;
+}
+
+#framework_wrap #content_wrap input[type="text"], #framework_wrap #content_wrap select, #framework_wrap #content_wrap textarea {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    display: block;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    font-size: 12px;
+    margin-bottom: 9px !important;
+    padding: 5px;
+    resize: none;
+    width: 344px;
+}
+
+#framework_wrap #content_wrap label {
+    font-size: 11px;
+}
+
+#framework_wrap #content_wrap .select_wrapper span {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 6px;
+    position: absolute;
+    z-index: 2;
+}
+
+#framework_wrap #content_wrap .select_wrapper {
+    background: url("../images/select.png") no-repeat scroll right center #FAFAFA;
+    border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    display: block;
+    float: left;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    font-size: 12px;
+    height: 26px;
+    margin-bottom: 21px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    width: 344px;
+}
+
+#framework_wrap #content_wrap select.select {
+    cursor: pointer;
+    height: 28px;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: relative;
+    width: inherit;
+    z-index: 4;
+}
+
+.shown { display:block; }
+.hidden { display:none; }
