@@ -60,20 +60,6 @@ get_header();
 						
 					<div class="details">	
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-		                <small>
-							<?php 
-							$terms = get_the_terms($post->ID, 'portfolio_category'); 
-							$i = 0;
-							foreach($terms as $term) {
-								$i++;
-								$c = ', ';
-								if ($i == count($terms)) {
-									$c = '';
-								}	
-								echo $term->name.$c; 
-							} 
-							?>
-						</small>
 				        <?php the_content(''); ?>
 
 		                <a href="<?php the_permalink(); ?>" class="btn">Project Details</a>
