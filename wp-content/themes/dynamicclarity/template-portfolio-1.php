@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Portfolio - 3 Columns
+Template Name: Portfolio - 1 Column
 */
 
 global $options;
@@ -22,21 +22,11 @@ get_header();
 
 </div><!-- end main -->
 
-<div id="crumbs">
-
-	<div class="container">
-    
-		<?php cinch_bc_breadcrumb(); ?>
-    
-    </div><!-- end container -->
-
-</div><!-- end crumbs -->
-
 <div id="content">
 
 	<div class="container">
             
-    	<ul class="portfolio-main-3 filter"> 
+    	<ul class="portfolio-main-1 filter"> 
 	
 			<li class="active all-projects" ><a href="" title="All categories">All Projects</a></li> 
         	<?php 
@@ -53,7 +43,7 @@ get_header();
 
 		        <div class="separator"></div>
 
-		    	<div class="portfolio-content-3 section content clearfix">
+		    	<div class="portfolio-content-1 section content clearfix">
 			
 				<?php
 				
@@ -77,7 +67,7 @@ get_header();
 						?>
 						<a href="<?php echo $image[0]; ?>" rel="colorbox">	
 							<?php
-							echo '<img src="'.get_bloginfo('template_url').'/timthumb.php?src='.$image[0].'&amp;h=185&amp;w=280&amp;q=95&amp;zc=1" alt="'.get_the_title().'" width="280" height="185" />';
+							echo '<img src="'.get_bloginfo('template_url').'/timthumb.php?src='.$image[0].'&amp;h=295&amp;w=610&amp;q=95&amp;zc=1" alt="'.get_the_title().'" width="610" height="295" />';
 							?>			
 						</a>
 						<?php endif; ?>	                

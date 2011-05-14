@@ -23,16 +23,6 @@ if (have_posts()) : while (have_posts()) : the_post();
 
 </div><!-- end main -->
 
-<div id="crumbs">
-
-	<div class="container">
-    
-		<?php cinch_bc_breadcrumb(); ?>
-    
-    </div><!-- end container -->
-
-</div><!-- end crumbs -->
-
 <div id="content">
 
 	<div class="container">

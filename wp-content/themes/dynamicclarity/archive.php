@@ -5,7 +5,7 @@ get_header(); ?>
 
 <div id="page-title">
 
-	<h1>Category '<?php wp_title('', true, 'left'); ?>'</h1>
+	<h1>Archives <?php wp_title('', true, 'left'); ?></h1>
     <h3><?php echo get_post_meta(get_option('page_for_posts'), "tagline_value", $single = true); ?></h3>
 
 </div><!-- end main message -->
@@ -15,16 +15,6 @@ get_header(); ?>
 </div><!-- end container -->
 
 </div><!-- end main -->
-
-<div id="crumbs">
-
-<div class="container">
-
-	<?php cinch_bc_breadcrumb(); ?>
-
-</div><!-- end container -->
-
-</div><!-- end crumbs -->
 
 <div id="content">
 
